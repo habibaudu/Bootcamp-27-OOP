@@ -2,7 +2,6 @@
   'use strict';
 
   const expect = require('chai').expect; 
-  const Car = require('./app/vehicle.js');
   import {Car,Vehicle} from './app/vehicle.js';
   
 
