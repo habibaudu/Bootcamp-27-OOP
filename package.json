@@ -1,0 +1,23 @@
+{
+  "name": "OOP",
+  "version": "1.0.0",
+  "description": "Object Oriented programming",
+  "main": "vehicle.js",
+  "scripts": {
+    "test": "babel-node mocha",
+    "babel": "babel --presets es2015 js/vehicle.js -o build/vehicle.bundle.js",
+    "start": "http-server"
+  },
+  "author": "Habib Audu",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "http-server": "^0.10.0"
+  }
+}
